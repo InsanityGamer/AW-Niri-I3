@@ -1,0 +1,22 @@
+flatpak 
+ripgrep 
+gcc 
+nm-connection-editor-desktop 
+nm-connection-editor 
+firefox 
+alacritty 
+neovim 
+pavucontrol pipewire libglvnd-gles  
+thunar
+mako 
+swaybg
+rofi-wayland
+niri 
+xinit 
+greetd tuigreet 
+xwayland-satellite
+xdg-desktop-portal-gtk
+xdg-desktop-portal-gnome
+Xorg
+-y
+
