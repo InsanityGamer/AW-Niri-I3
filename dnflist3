@@ -12,7 +12,7 @@ mako
 swaybg
 rofi-wayland
 niri 
-xinit 
+xinit polkit-qt
 greetd tuigreet 
 xwayland-satellite
 xdg-desktop-portal-gtk
