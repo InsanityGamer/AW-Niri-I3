@@ -3,6 +3,8 @@
 #Purpose: Installs config files and packages automatically from tty1 (start from most recent Fedora Server OS)
 #Usage: ./install-config.sh
 #Instruction: Ensure the script is placed in user home directoy.
+#Add rpmFusion Repos
+sudo dnf install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 #Pass a list into dnf package manager using Xargs as a handler
 cat ./dnflist3 | xargs sudo dnf install ;
 #flathub repo added
